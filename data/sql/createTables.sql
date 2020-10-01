@@ -1,0 +1,14 @@
+CREATE TABLE parties."2020" (
+	cpf VARCHAR ( 11 ) NOT NULL,
+	name VARCHAR ( 255 ) NOT NULL,
+	party VARCHAR ( 50 ) NOT NULL,
+	uf VARCHAR ( 2 ) NOT NULL,
+	city VARCHAR ( 255 ) NOT NULL
+);
+CREATE TABLE parties."2016" (
+	cpf VARCHAR ( 11 ) NOT NULL,
+	name VARCHAR ( 255 ) NOT NULL,
+	party VARCHAR ( 50 ) NOT NULL,
+	uf VARCHAR ( 2 ) NOT NULL,
+	city VARCHAR ( 255 ) NOT NULL
+)
